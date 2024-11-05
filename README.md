@@ -14,18 +14,25 @@ Ionic Project: Buat project baru menggunakan Ionic dengan perintah ionic start c
 Page Mahasiswa: Buat halaman mahasiswa untuk tampilan utama CRUD.
 Service API: Buat api.service.ts untuk komunikasi dengan PHP API yang sudah dibuat.
 4. Menampilkan Data Mahasiswa
-   ![Lamoiran](ss/1.png)
+   ![Lampiran](ss/1.png)
+   ![Lampiran](ss/2.png)
 mahasiswa.page.ts: Fungsi getMahasiswa() akan menampilkan seluruh data mahasiswa yang diambil dari API tampil.php.
 mahasiswa.page.html: Menampilkan data mahasiswa dalam kartu yang menampilkan nama dan jurusan.
 6. Menambahkan Data Mahasiswa
+   ![Lampiran](ss/3.png)
+   ![Lampiran](ss/4.png)
 mahasiswa.page.ts:
 Fungsi openModalTambah() membuka modal form untuk menambah data.
 Fungsi tambahMahasiswa() mengirim data baru ke API tambah.php.
 mahasiswa.page.html: Menampilkan tombol "Tambah Mahasiswa" dan modal input data baru.
-7. Menghapus Data Mahasiswa
+8. Menghapus Data Mahasiswa
+  ![Lampiran](ss/7.png)
+  ![Lampiran](ss/8.png)
 mahasiswa.page.ts: Fungsi hapusMahasiswa(id) menghapus data mahasiswa berdasarkan id dengan memanggil API hapus.php.
 mahasiswa.page.html: Tombol "Hapus" ditambahkan pada kartu data untuk menghapus data mahasiswa.
-8. Mengedit Data Mahasiswa
+10. Mengedit Data Mahasiswa
+    ![Lampiran](ss/5.png)
+    ![Lampiran](ss/6.png)
 mahasiswa.page.ts:
 Fungsi openModalEdit() membuka modal form untuk mengedit data mahasiswa yang dipilih.
 Fungsi editMahasiswa() mengirim data yang sudah diubah ke API edit.php.
